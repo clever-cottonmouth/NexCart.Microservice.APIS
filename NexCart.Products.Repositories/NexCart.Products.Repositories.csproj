@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NexCart.Products.Context\NexCart.Products.Context.csproj" />
+    <ProjectReference Include="..\NexCart.Products.RepositoryContracts\NexCart.Products.RepositoryContracts.csproj" />
+  </ItemGroup>
+
 </Project>

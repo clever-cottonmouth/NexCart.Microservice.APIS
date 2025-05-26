@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NexCart.Products.Context\NexCart.Products.Context.csproj" />
+    <ProjectReference Include="..\NexCart.Products.Mappers\NexCart.Products.Mappers.csproj" />
+    <ProjectReference Include="..\NexCart.Products.Repositories\NexCart.Products.Repositories.csproj" />
+    <ProjectReference Include="..\NexCart.Products.RepositoryContracts\NexCart.Products.RepositoryContracts.csproj" />
+    <ProjectReference Include="..\NexCart.Products.ServiceContracts\NexCart.Products.ServiceContracts.csproj" />
+    <ProjectReference Include="..\NexCart.Products.Services\NexCart.Products.Services.csproj" />
+    <ProjectReference Include="..\NexCart.Products.Validators\NexCart.Products.Validators.csproj" />
+  </ItemGroup>
+
 </Project>
