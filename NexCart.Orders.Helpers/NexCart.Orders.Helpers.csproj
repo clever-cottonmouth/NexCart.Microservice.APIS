@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.5" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NexCart.Orders.Mappers\NexCart.Orders.Mappers.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.Repositories\NexCart.Orders.Repositories.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.RepositoryContracts\NexCart.Orders.RepositoryContracts.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.ServiceContracts\NexCart.Orders.ServiceContracts.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.Services\NexCart.Orders.Services.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.Validators\NexCart.Orders.Validators.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Polly" Version="8.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NexCart.Orders.DTO\NexCart.Orders.DTO.csproj" />
+    <ProjectReference Include="..\NexCart.Orders.Entities\NexCart.Orders.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
