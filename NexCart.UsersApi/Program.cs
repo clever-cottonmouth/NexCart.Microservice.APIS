@@ -52,7 +52,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(_=>_.SwaggerEndpoint("/swagger/v1/swagger.json","Yumigo"));
+    app.UseSwaggerUI(_=>_.SwaggerEndpoint("/swagger/v1/swagger.json","NexCart.UsersApi v1"));
 }
 
 app.UseExceptionHandlingMiddleware();
