@@ -2,8 +2,8 @@
 using System.Net;
 
 
-namespace NexCart.ProductsApi.Middleware
-{
+namespace NexCart.ProductsApi.Middleware;
+
     public class ExceptionHandlingMiddleware
     {
         private readonly RequestDelegate _next;
@@ -43,4 +43,4 @@ namespace NexCart.ProductsApi.Middleware
             return builder.UseMiddleware<ExceptionHandlingMiddleware>();
         }
     }
-}
+
