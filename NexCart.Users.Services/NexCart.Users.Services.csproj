@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NexCart.Users.DTO\NexCart.Users.DTO.csproj" />
+    <ProjectReference Include="..\NexCart.Users.Entities\NexCart.Users.Entities.csproj" />
+    <ProjectReference Include="..\NexCart.Users.RepositoryContracts\NexCart.Users.RepositoryContracts.csproj" />
+    <ProjectReference Include="..\NexCart.Users.ServiceContracts\NexCart.Users.ServiceContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
 </Project>

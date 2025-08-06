@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\Rabbit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCart.Users.Helpers", "NextCart.Users.Helpers\NextCart.Users.Helpers.csproj", "{88EB29A0-DD16-4CC3-8C52-39605349957A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexCart.Users.Infrastructure", "NexCart.Users.Infrastructure\NexCart.Users.Infrastructure.csproj", "{E25344D5-972F-4113-99F3-4A4A6486D311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{88EB29A0-DD16-4CC3-8C52-39605349957A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EB29A0-DD16-4CC3-8C52-39605349957A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EB29A0-DD16-4CC3-8C52-39605349957A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25344D5-972F-4113-99F3-4A4A6486D311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25344D5-972F-4113-99F3-4A4A6486D311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25344D5-972F-4113-99F3-4A4A6486D311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25344D5-972F-4113-99F3-4A4A6486D311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -271,6 +277,7 @@ Global
 		{0ECD7417-25E6-4D47-A272-9882061E6468} = {AFCCDF1B-E5BF-4F84-8447-DE5E1A9EB893}
 		{646D8E75-811D-498D-8DB8-114A743BB150} = {610A3114-5EC4-4737-8DF6-B4937838A73F}
 		{88EB29A0-DD16-4CC3-8C52-39605349957A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E25344D5-972F-4113-99F3-4A4A6486D311} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AD50361-8C47-4011-9E28-3268041A654A}

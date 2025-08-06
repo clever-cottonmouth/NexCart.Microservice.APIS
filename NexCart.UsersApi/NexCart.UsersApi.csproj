@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NexCart.Users.Infrastructure\NexCart.Users.Infrastructure.csproj" />
+    <ProjectReference Include="..\NexCart.Users.Mappers\NexCart.Users.Mappers.csproj" />
     <ProjectReference Include="..\NextCart.Users.Helpers\NextCart.Users.Helpers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
   </ItemGroup>
 
 </Project>

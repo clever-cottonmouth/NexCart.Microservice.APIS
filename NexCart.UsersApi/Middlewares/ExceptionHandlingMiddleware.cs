@@ -1,8 +1,12 @@
+using System.Net;
+using Newtonsoft.Json;
+
 namespace NexCart.UsersApi.Middlewares;
 
 public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
+    private readonly ILogger<ExceptionHandlingMiddleware> _logger;
 
     public ExceptionHandlingMiddleware(RequestDelegate next)
     {
@@ -15,9 +19,10 @@ public class ExceptionHandlingMiddleware
         {
             await _next(context);
         }
-        catch
+        catch (Exception ex)
         {
-            throw new Exception("An error occured");
+            _logger.LogError(ex, ex.Message);
+            
         }
     }
     
